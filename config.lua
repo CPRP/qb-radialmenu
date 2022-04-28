@@ -37,6 +37,13 @@ Config.MenuItems = {
                 event = 'qb-hotdogjob:client:ToggleSell',
                 shouldClose = true
             }, {
+                id = 'vehicleflip',
+                title = 'Flip Vehicle',
+                icon = 'car-crash',
+                type = 'client',
+                event = 'vehicle:flipit',
+                shouldClose = true
+            }, {
                 id = 'interactions',
                 title = 'Interaction',
                 icon = 'exclamation-triangle',
@@ -294,6 +301,15 @@ Config.MenuItems = {
             }
         }
     },
+}
+
+Config.flipvehicle = {
+    id = 'flipvehicle',
+    title = 'Flip Vehicle',
+    icon = 'truck-pickup',
+    type = 'client',
+    event = 'qb-radialmenu:client:flipvehicle',
+    shouldClose = true
 }
 
 Config.VehicleDoors = {
