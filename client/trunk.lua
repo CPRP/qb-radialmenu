@@ -70,6 +70,10 @@ local function TrunkCam(bool)
 end
 
 -- Events
+RegisterNetEvent('vehicle:flipit')
+AddEventHandler('vehicle:flipit', function()
+    TriggerClientEvent('vehicle:flipit')
+end)
 
 RegisterNetEvent('qb-kidnapping:client:SetKidnapping', function(bool)
     isKidnapping = bool
