@@ -39,7 +39,7 @@ Config.MenuItems = {
             }, {
                 id = 'vehicleflip',
                 title = 'Flip Vehicle',
-                icon = 'car-crash',
+                icon = 'car-burst',
                 type = 'client',
                 event = 'vehicle:flipit',
                 shouldClose = true
